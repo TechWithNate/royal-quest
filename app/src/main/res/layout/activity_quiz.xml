@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.Quiz">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appBar">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/topAppBar"
+            style="@style/Widget.MaterialComponents.Toolbar"
+            app:navigationIcon="@drawable/baseline_arrow_back_24"
+            app:title="Course Name"
+            app:titleTextColor="@color/white"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/appBar"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        app:strokeWidth="0dp"
+        android:id="@+id/question_card"
+        app:cardBackgroundColor="#2196F3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="This is a sample question"
+            android:id="@+id/question"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cornerRadius="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:backgroundTint="@color/white"
+        android:text="A. Option 1"
+        app:strokeWidth="0.5dp"
+        android:id="@+id/opt1"
+        android:textColor="@color/black"
+        app:strokeColor="#5B5B5B"
+        android:layout_below="@+id/question_card"
+        android:layout_marginTop="50dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/opt1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Option B"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white"
+        app:strokeWidth="0.05dp"
+        app:cornerRadius="5dp"
+        android:id="@+id/opt2"
+        app:strokeColor="#575757"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/opt2"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Option C"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white"
+        app:strokeWidth="0.05dp"
+        app:cornerRadius="5dp"
+        android:id="@+id/opt3"
+        app:strokeColor="#575757"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/opt3"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Option D"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white"
+        app:strokeWidth="0.05dp"
+        app:cornerRadius="5dp"
+        android:id="@+id/opt4"
+        app:strokeColor="#575757"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/opt4"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        android:textColor="@color/white"
+        app:backgroundTint="#03A9F4"
+        app:strokeWidth="0dp"
+        app:cornerRadius="5dp"
+        android:id="@+id/submit"
+        app:strokeColor="#575757"/>
+
+
+
+</RelativeLayout>

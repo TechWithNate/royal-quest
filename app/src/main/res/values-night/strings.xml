@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_an_account">Sign Up</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">Login</string>
+</resources>

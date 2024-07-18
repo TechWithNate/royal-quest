@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Royal Quest</string>
+    <string name="title_home">Home</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="profile">Profile</string>
+    <string name="create_an_account">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Sign Up</string>
+    <string name="login">Login</string>
+</resources>
