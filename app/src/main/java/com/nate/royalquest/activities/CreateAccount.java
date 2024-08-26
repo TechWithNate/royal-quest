@@ -47,9 +47,6 @@ public class CreateAccount extends AppCompatActivity {
         signUpBtn.setOnClickListener(v -> checkFields());
 
 
-
-
-
     }
 
     private void initViews(){
