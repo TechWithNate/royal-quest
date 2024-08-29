@@ -24,5 +24,9 @@ public class LeaderboardFragment extends Fragment {
         return view;
     }
 
+    private void initViews() {
+
+    }
+
 
 }
